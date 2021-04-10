@@ -23,3 +23,5 @@ target/
 *.project
 .settings/
 .vscode/
+
+# Edited from branch-B
