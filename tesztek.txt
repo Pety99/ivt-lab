@@ -1,0 +1,44 @@
+Tesztek:
+
+A tesztek során az összes lehetséges kombinációt ki kell próbálni a következőkből:
+- Az elsődleges torpedó az előbb volt kilőve / nem
+- Az elsődleges torpedó állás üres / tele
+- A másodlagos torpeó állás üres / tele
+
+A forráskód alapján látszik, hogy nem kell az összes kombináció mert redundánsan ugyan azon az ágon futna végig a teszt.
+
+#1 fireTorpedo_Secondary_Success
+- Az elsődleges torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás üres
+- A másodlagos torpeó állás tele
+- Eredmény: Siker
+
+#2 fireTorepdo_Primary_Success_Again
+- Az elsődleges torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás tele
+- A másodlagos torpeó állás üres
+- Eredmény: Siker
+
+#3 fireTorpedo_Secondary_Primary_Fail
+- Az elsődleges torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás üres
+- A másodlagos torpeó állás üres
+- Eredmény: Fail
+
+#4 fireTorpedo_Primary_Success
+- Az másodlagos torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás tele
+- A másodlagos torpeó állás -
+- Eredmény: Siker
+
+#5 fireTorpedo_Secondary_Success_Again
+- Az másodlagos torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás üres
+- A másodlagos torpeó állás tele
+- Eredmény: Siker
+
+#6 fireTorpedo_Primary_Secondary_Fail
+- Az másodlagos torpedó az előbb volt kilőve
+- Az elsődleges torpedó állás üres
+- A másodlagos torpeó állás üres
+- Eredmény: Fail
